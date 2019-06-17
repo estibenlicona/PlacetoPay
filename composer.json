@@ -1,0 +1,17 @@
+{
+    "name": "home/placetopay",
+    "authors": [
+        {
+            "name": "Estiben Licona",
+            "email": "estibenlicona@gmail.com"
+        }
+    ],
+    "require": {
+    	"rmccue/requests": ">=1.0",
+        "vlucas/phpdotenv": "^3.4",
+        "twbs/bootstrap": "4.3.1"
+    },
+    "autoload": {
+        "psr-0": {"Requests": "library/"}
+    }
+}
